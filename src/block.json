@@ -18,7 +18,11 @@
 		},
 		"color":{
 			"type":"string",
-			"default":" bl-bg-sky-800 !bl-text-white "
+			"default":"blue"
+		},
+		"url":{
+			"type":"string",
+			"default":""
 		}
 	},
 	"textdomain": "box-title",

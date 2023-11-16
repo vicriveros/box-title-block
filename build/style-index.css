@@ -166,6 +166,16 @@
   font-weight: 500;
 }
 
+.\!bl-text-green-800 {
+  --tw-text-opacity: 1 !important;
+  color: rgb(22 101 52 / var(--tw-text-opacity)) !important;
+}
+
+.\!bl-text-sky-800 {
+  --tw-text-opacity: 1 !important;
+  color: rgb(7 89 133 / var(--tw-text-opacity)) !important;
+}
+
 .\!bl-text-white {
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
@@ -193,4 +203,8 @@
   border-width: 0;
   border-style: solid;
   border-color: #e5e7eb;
+}
+
+.hover\:bl-underline:hover {
+  text-decoration-line: underline;
 }
